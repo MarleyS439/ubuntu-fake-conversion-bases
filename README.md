@@ -44,14 +44,14 @@ Ubuntu Fake is a web screen that simulates the Ubuntu terminal, with functions f
 
 - Convert 10 decimal to binary:
 
-`bin 10`
+```bin 10```
 
 - Convert 6 octal to hexadecimal:
 
-`octal2hex `
+```octal2hex ```
 
 - Convert FFA hexadecimal to binary:
 
-`hex2bin ffa`
+```hex2bin ffa```
 
 ![Hexadecimal to Binary](https://github.com/MarleyS439/ubuntu-fake-conversion-bases/blob/master/public/assets/images/terminal.png "Hexadecimal to Binary")
