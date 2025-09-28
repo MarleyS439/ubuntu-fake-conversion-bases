@@ -1,0 +1,32 @@
+@import url(default.css);
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-green);
+}
+
+body::selection {
+    background-color: #33da7a;
+    color: #fff;
+}
+
+input {
+    background-color: var(--color-black);
+    outline: none;
+    border: none;
+    padding: 1px 5px;
+    font-size: 1rem;
+    color: var(--color-white);
+}
+
+#result ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#result ul li {
+    margin: 0px 6px;
+    color: #153c6d;
+}

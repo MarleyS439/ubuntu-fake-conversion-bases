@@ -1,0 +1,30 @@
+@import url(fonts.css);
+
+:root {
+    /* Colors */
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-green: #33da7a;
+
+    /* Fonts */
+    --font-mono: "Ubuntu-Sans-Mono", sans-serif;
+    --font-default: "Ubuntu", sans-serif;
+    --font-default-bold: "Ubuntu-Bold", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-default);
+}
+
+body::selection {
+    background-color: #df4916;
+    color: var(--color-white);
+}
+
+body::-moz-selection {
+    background: #df4916;
+    color: var(--color-white);
+}

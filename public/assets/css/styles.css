@@ -1,0 +1,142 @@
+@import url(default.css);
+
+body {
+    background-image: url("../images/ubuntu-linux-minimal-4k-on.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: var(--font-default);
+    overflow-y: hidden;
+}
+
+.top-bar {
+    background-color: #131313;
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+.watch button,
+.activities button {
+    transition: 100ms ease-out;
+    cursor: default;
+    padding: 2px 6px;
+    border-radius: 16px;
+    background-color: #131313;
+    color: var(--color-white);
+    border: none;
+    font-family: var(--font-default-bold);
+}
+
+.watch button:hover,
+.activities button:hover {
+    opacity: 0.9;
+    background-color: #3f3f3f;
+    cursor: default;
+}
+
+.top-bar .tools img {
+    width: 16px;
+    height: 16px;
+}
+
+.tools {
+    display: flex;
+    margin: 0px 3px;
+}
+
+.tools-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0px 2px 3px;
+    transition: 100ms ease-out;
+    border-radius: 16px;
+}
+
+.tools-i:hover {
+    opacity: 0.9;
+    background-color: #3f3f3f;
+    cursor: default;
+}
+
+.tools-i span {
+    margin: 1px 5px;
+    pointer-events: none;
+}
+
+.tools-i img {
+    width: 60px;
+    height: 60px;
+    pointer-events: none;
+}
+
+.tools .icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.icon span {
+    margin: 0px 3px;
+}
+
+.icon span img {
+    width: 38px;
+}
+
+aside {
+    background-color: #1f1010;
+    height: 100vh;
+    width: 60px;
+    display: flex;
+}
+
+aside ul {
+    width: 100%;
+    margin-top: 8px;
+}
+
+aside li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside button {
+    background-color: transparent;
+    border: none;
+}
+
+aside ul li button img {
+    width: 40px;
+}
+
+aside li {
+    margin: 10px 0px;
+}
+
+.line {
+    height: 1px;
+    width: 50px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: #5d5d5d;
+}
+
+#grid {
+    position: relative;
+    top: 30%;
+    margin-right: 2px;
+    pointer-events: none;
+}
+
+#grid img {
+    width: 38px;
+    pointer-events: none;
+}
