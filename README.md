@@ -39,3 +39,19 @@ Ubuntu Fake is a web screen that simulates the Ubuntu terminal, with functions f
 - `octal2bin n` - Convert a **octal number into binary**, then `n` is a number that would you like to convert.
 
 - `octal2hex n` - Convert a **octal number into hexadecimal**, then `n` is a number that would you like to convert.
+
+# Examples
+
+- Convert 10 decimal to binary:
+
+`bin 10`
+
+- Convert 6 octal to hexadecimal:
+
+`octal2hex `
+
+- Convert FFA hexadecimal to binary:
+
+`hex2bin ffa`
+
+![Hexadecimal to Binary](https://github.com/MarleyS439/ubuntu-fake-conversion-bases/blob/master/public/assets/images/terminal.png "Hexadecimal to Binary")
