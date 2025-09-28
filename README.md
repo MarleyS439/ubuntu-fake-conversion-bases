@@ -26,16 +26,16 @@ Ubuntu Fake is a web screen that simulates the Ubuntu terminal, with functions f
 
 ## From Hexadecimal
 
-- `hex2dec` - Convert a **hexadecimal number into decimal**, then `n` is a number that would you like to convert.
+- `hex2dec n` - Convert a **hexadecimal number into decimal**, then `n` is a number that would you like to convert.
 
-- `hex2octal` - Convert a **hexadecimal number into octal**, then `n` is a number that would you like to convert.
+- `hex2octal n` - Convert a **hexadecimal number into octal**, then `n` is a number that would you like to convert.
 
-- `hex2bin` - Convert a **hexadecimal number into binary**, then `n` is a number that would you like to convert.
+- `hex2bin n` - Convert a **hexadecimal number into binary**, then `n` is a number that would you like to convert.
 
 ## From Octal
 
-- `octal2dec` - Convert a **octal number into decimal**, then `n` is a number that would you like to convert.
+- `octal2dec n` - Convert a **octal number into decimal**, then `n` is a number that would you like to convert.
 
-- `octal2bin` - Convert a **octal number into binary**, then `n` is a number that would you like to convert.
+- `octal2bin n` - Convert a **octal number into binary**, then `n` is a number that would you like to convert.
 
-- `octal2hex` - Convert a **octal number into hexadecimal**, then `n` is a number that would you like to convert.
+- `octal2hex n` - Convert a **octal number into hexadecimal**, then `n` is a number that would you like to convert.
