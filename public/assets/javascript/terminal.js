@@ -65,12 +65,15 @@ const Functions = {
     return parseInt(n, 16).toString(16);
   },
   octal2hex(n) {
+    if (!/^[0-7]+$/.test(n)) return "Erro: valor não é octal válido";
     return parseInt(n, 8).toString(16);
   },
   octal2bin(n) {
+    if (!/^[0-7]+$/.test(n)) return "Erro: valor não é octal válido";
     return parseInt(n, 8).toString(2);
   },
   octal2dec(n) {
+    if (!/^[0-7]+$/.test(n)) return "Erro: valor não é octal válido";
     return parseInt(n, 8).toString(10);
   },
 };
